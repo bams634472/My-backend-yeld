@@ -1,6 +1,6 @@
 # My Yelp — AWS Amplify Deployment Guide
 
-## Prerequisites
+## Requirements
 - Node.js 18+ installed
 - AWS account (free tier)
 - GitHub account
