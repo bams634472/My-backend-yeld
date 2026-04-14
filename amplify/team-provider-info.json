@@ -1,0 +1,29 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-schoolapp-dev-54a9b-authRole",
+      "UnauthRoleArn": "arn:aws:iam::037613907681:role/amplify-schoolapp-dev-54a9b-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::037613907681:role/amplify-schoolapp-dev-54a9b-authRole",
+      "Region": "eu-north-1",
+      "DeploymentBucketName": "amplify-schoolapp-dev-54a9b-deployment",
+      "UnauthRoleName": "amplify-schoolapp-dev-54a9b-unauthRole",
+      "StackName": "amplify-schoolapp-dev-54a9b",
+      "StackId": "arn:aws:cloudformation:eu-north-1:037613907681:stack/amplify-schoolapp-dev-54a9b/54126de0-3802-11f1-8965-0a8e3df6d161",
+      "AmplifyAppId": "d31mwgf7jpvc8m"
+    },
+    "categories": {
+      "auth": {
+        "schoolapp3d01f04e": {}
+      },
+      "api": {
+        "schoolapp": {}
+      },
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d31mwgf7jpvc8m",
+          "type": "manual"
+        }
+      }
+    }
+  }
+}

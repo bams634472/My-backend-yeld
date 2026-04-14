@@ -1,0 +1,10 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Push Backend",
+			"type": "shell",
+			"command": "amplify"
+		}
+	]
+}
