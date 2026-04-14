@@ -104,4 +104,5 @@ Open `my_yelp_url.txt` and replace the placeholder with your live URL.
 ---
 
 ## Commit History
+- `460aefc` - Updated README for My Yelp app
 - `2205bd2` - Initial commit: Yelp app with Amplify backend
