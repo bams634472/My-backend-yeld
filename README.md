@@ -74,7 +74,7 @@ git init
 git add .
 git commit -m "initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/my-yelp.git
+ git remote add origin https://github.com/bams634472/My-backend-yeld.git
 git push -u origin main
 ```
 
@@ -86,7 +86,7 @@ git push -u origin main
 3. Connect your GitHub repo
 4. Amplify auto-detects React — click **Save and deploy**
 5. Wait ~3 minutes for build to complete
-6. Copy the live URL (e.g. `https://dev.d31mwgf7jpvc8m.amplifyapp.com`)
+6.  live URL (e.g. `https://dev.d31mwgf7jpvc8m.amplifyapp.com`)
 
 ---
 
@@ -104,5 +104,5 @@ Open `my_yelp_url.txt` and replace the placeholder with your live URL.
 ---
 
 ## Commit History
-- `460aefc` - Updated README for My Yelp app
-- `2205bd2` - Initial commit: Yelp app with Amplify backend
+ - Updated README for My Yelp app
+  -  - Initial commit: Yelp app with Amplify backend
