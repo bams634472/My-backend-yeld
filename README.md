@@ -1,4 +1,4 @@
-# School Management System — AWS Amplify Deployment Guide
+# My Yelp — AWS Amplify Deployment Guide
 
 ## Prerequisites
 - Node.js 18+ installed
@@ -28,7 +28,7 @@ Follow the prompts: sign into AWS, choose a region (e.g. us-east-1), create an I
 amplify init
 ```
 Answers:
-- Project name: `schoolapp`
+- Project name: `myyelp`
 - Environment: `dev`
 - Default editor: your editor
 - App type: `javascript`
@@ -74,7 +74,7 @@ git init
 git add .
 git commit -m "initial commit"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/school-app.git
+git remote add origin https://github.com/YOUR_USERNAME/my-yelp.git
 git push -u origin main
 ```
 
@@ -97,8 +97,11 @@ Open `my_yelp_url.txt` and replace the placeholder with your live URL.
 
 ## Features
 - **Authentication** — Sign up / sign in powered by AWS Cognito
-- **Students** — Add, search, remove students
-- **Courses** — Manage courses with capacity tracking
-- **Enrollments** — Link students to courses (GraphQL mutations)
-- **Grades** — Record scores, auto letter grade (A–F), progress bar
-- **Dashboard** — Live stats: student count, course count, enrollments, average grade
+- **Businesses** — Add, search, view businesses with categories, addresses, descriptions
+- **Reviews** — Add reviews with ratings (1-5 stars) and text
+- **Dashboard** — Live stats: business count, review count, average rating
+
+---
+
+## Commit History
+- `2205bd2` - Initial commit: Yelp app with Amplify backend
